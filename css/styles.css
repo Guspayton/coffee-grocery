@@ -39,17 +39,14 @@ h1 {
 
 /* TITLE IMAGE */
 .title-img {
-  margin-right: 50%;
-  width: 20%;
+  margin-left: 10%;
+  width: 50%;
   transform: rotate(15deg);
-  position: absolute;
 }
 
 /* FEATURE SECTION */
 .features {
-  padding: 7% 15% 100%;
-  position: relative;
-  z-index: 1;
+  padding: 7% 15%;
   background-color: #fff;
 }
 
