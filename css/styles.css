@@ -4,6 +4,7 @@ body {
 
 .title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 .container-fluid {
@@ -14,22 +15,22 @@ h1 {
   font-family: "Monserrat-Black";
   font-size: 3rem;
   line-height: 1.5;
-  color: #fff;
 }
 
 /* NAVBAR */
 .navbar {
-  padding:0 0 4rem;
+  padding: 0 0 4rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2rem;
   font-weight: bold;
 }
+
 .nav-item {
   padding: 0 18px;
 }
-
 
 /* DOWNLOAD BTN */
 .download-btn {
@@ -47,21 +48,26 @@ h1 {
 .features {
   padding: 7% 15%;
 }
+
 .feature-box {
   text-align: center;
   padding: 5%;
 }
+
 h3 {
   font-family: "Monseratt-Bold";
   font-size: 1.2rem;
 }
+
 p {
   color: #8f8f8f;
 }
+
 .icon {
   color: #ef8172;
   margin-bottom: 5%;
 }
+
 .icon:hover {
   color: #ff4c68;
 }
@@ -73,6 +79,7 @@ p {
   background-color: #ef8172;
   color: #fff;
 }
+
 h2 {
   font-family: "Monseratt-Bold";
   font-size: 2rem;
@@ -80,8 +87,24 @@ h2 {
   width: 80%;
   margin: 0 auto 30px auto;
 }
-.testimonials-img {
+
+.testimonial-img {
   border-radius: 100%;
   width: 20%;
   margin: 20px;
+}
+
+
+/* PRESS */
+.press {
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.bg-transparent {
+  border: none;
 }
