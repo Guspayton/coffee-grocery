@@ -122,7 +122,7 @@ h2 {
 }
 
 /* PRICING SECTION */
-.pricing {
+#pricing {
   padding: 100px;
   text-align: center;
 }
@@ -136,7 +136,7 @@ h2 {
 }
 
 /* CALL TO ACTION SECTION */
-.cta {
+#cta {
   background-color: #ff4c68;
   padding: 7% 15%;
   color: #fff;
