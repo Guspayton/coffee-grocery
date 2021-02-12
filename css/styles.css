@@ -2,6 +2,22 @@ body {
   font-family: "Monseratt";
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Monseratt-Bold"
+}
+
+/* HEADINGS */
+.big-heading {
+  font-family: "Monseratt-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .title {
   background-color: #ff4c68;
   color: #fff;
@@ -9,12 +25,6 @@ body {
 
 .container-fluid {
   padding: 3% 15%;
-}
-
-h1 {
-  font-family: "Monserrat-Black";
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 /* NAVBAR */
@@ -31,6 +41,7 @@ h1 {
 .nav-item {
   padding: 0 18px;
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Monseratt"
@@ -50,7 +61,7 @@ h1 {
 }
 
 /* FEATURE SECTION */
-.features {
+#feature {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
@@ -61,9 +72,8 @@ h1 {
   padding: 4.5%;
 }
 
-h3 {
-  font-family: "Monseratt-Bold";
-  font-size: 1.2rem;
+.feature-title {
+  font-size: 1.5rem;
 }
 
 p {
@@ -80,19 +90,16 @@ p {
 }
 
 /* TESTIMONIAL SECTION */
-.testimonials {
+#testimonials {
   padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-h2 {
-  font-family: "Monseratt-Bold";
-  font-size: 2rem;
+.testimonial-text {
+  font-size: 3rem;
   line-height: 1.5;
-  width: 80%;
-  margin: 0 auto 30px auto;
 }
 
 .testimonial-img {
@@ -127,6 +134,11 @@ h2 {
   text-align: center;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
@@ -142,44 +154,32 @@ h2 {
   color: #fff;
   text-align: center;
 }
-.cta-heading {
-  font-family: "Monseratt-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
+
 
 /* FOOTER */
 #footer {
   padding: 7% 15%;
   text-align: center;
 }
+
 .social-icon {
   margin: 20px 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERY */
 @media (max-width: 1028px) {
-.title {
-  text-align: center;
-}
-h1, h2 {
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-.title-img {
-  position: static;
-  transform: rotate(0);
-  width: 80%;
-}
+  .title {
+    text-align: center;
+  }
+
+  h1, .testimonial-text, .big-heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
 }
