@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* SECTIONS */
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #eabf9f;
   color: #fff;
 }
 
@@ -92,17 +92,17 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #b68973;
   margin-bottom: 5%;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #1e212d;
 }
 
 /* TESTIMONIAL SECTION */
 #testimonials {
-  background-color: #ef8172;
+  background-color: #b68973;
 }
 
 .testimonial-text {
