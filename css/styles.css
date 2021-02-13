@@ -1,5 +1,7 @@
 body {
   font-family: "Monseratt";
+  text-align: center;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,13 +20,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-.title {
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+.white-section {
+  background-color: #fff;
 }
 
 /* NAVBAR */
@@ -52,23 +60,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5% 3% 5% 0;
 }
 
+/* TITLE SECTION */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 /* TITLE IMAGE */
 .title-img {
-  width: 20%;
-  transform: rotate(15deg);
+  width: 35%;
+  transform: rotate(25deg);
   position: absolute;
-  right: 15%;
+  right: 5%;
 }
 
 /* FEATURE SECTION */
 #feature {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -91,10 +102,7 @@ p {
 
 /* TESTIMONIAL SECTION */
 #testimonials {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -108,22 +116,6 @@ p {
   margin: 20px;
 }
 
-/* PRESS */
-.press {
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-img {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
 .bg-transparent {
   border: none;
 }
@@ -131,7 +123,6 @@ p {
 /* PRICING SECTION */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .price-text {
@@ -148,27 +139,14 @@ p {
 }
 
 /* CALL TO ACTION SECTION */
-#cta {
-  background-color: #ff4c68;
-  padding: 7% 15%;
-  color: #fff;
-  text-align: center;
-}
-
-
 /* FOOTER */
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
-
 .social-icon {
   margin: 20px 10px;
 }
 
 /* MEDIA QUERY */
 @media (max-width: 1028px) {
-  .title {
+  #title {
     text-align: center;
   }
 
